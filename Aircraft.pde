@@ -82,7 +82,7 @@ class Aircraft {
                     barriers[i].left = random(2) < 1;
                     barriers[i].x = (barriers[i].left) ? -75 : width / 2;
                     if(score >= 20) {
-                        barriers[i].move = random(3) < 1;
+                        barriers[i].move = random(2) < 1;
                         if(barriers[i].move) {
                             barriers[i].speed = 0.75;
                             barriers[i].timer = 0;
