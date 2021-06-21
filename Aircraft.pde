@@ -121,7 +121,6 @@ class Aircraft {
             isTransition.isAlive = true;
             if(isTransition.over) { 
                 gameState = GAME_START;
-                score = 0;
                 isTransition.over = false;
                 initGame();
             }
